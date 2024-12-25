@@ -14,8 +14,8 @@ function App() {
       <main>
         <div className="hero-section">
           <div className="hero-content">
-            <h1>Hi, I'm <span className="highlight">Your Name</span></h1>
-            <p className="hero-text">Full Stack Developer & UI/UX Designer</p>
+            <h1>Hi, I'm <span className="highlight">Arjohn</span></h1>
+            <p className="hero-text">Junior Developer & UI/UX Designer</p>
             <div className="hero-buttons">
               <a href="#projects" className="primary-btn">View My Work</a>
               <a href="#contact" className="secondary-btn">Contact Me</a>
