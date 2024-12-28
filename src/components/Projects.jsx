@@ -4,7 +4,7 @@ function Projects() {
   const projects = [
     {
       title: "ResuMech: Automated Resume Analysis Engine",
-      description: "The primary goal of this project is to develop an intelligent system that utilizes Natural Language Processing (NLP) techniques to analyze resumes.",
+      description: "The project is to develop an intelligent system that utilizes Natural Language Processing (NLP) techniques to analyze resumes.",
       image: "https://images.pexels.com/photos/5598289/pexels-photo-5598289.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["Python", "HTML", "CSS"],
       github: "https://github.com/arjohn405/resume-project.git",

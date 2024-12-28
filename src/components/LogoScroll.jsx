@@ -21,6 +21,16 @@ function LogoScroll() {
       name: "The Spectrum",
       url: "https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/283080926_5068743213251193_8282183532686120542_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGtMmBbmh-wdPSGNc_t3SNKFd-wqjUn-qoV37CqNSf6qpWm4b5tbcpZL8RUEm_ygyHX9fu59zD8l89Tl9_g5Mdr&_nc_ohc=bFfDVunNbbUQ7kNvgF4E6YT&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fcrk3-2.fna&_nc_gid=ABh3aMMp-wf7pUyH6flUbH9&oh=00_AYA6BtBzvvl8CZ57NhE0k_K4rYJrJwbA68WTfwkyTYaHTg&oe=67716372",
       link: "#"
+    },
+    {
+      name: "Craftora",
+      url: "https://scontent.fmnl33-2.fna.fbcdn.net/v/t39.30808-6/464781134_122104892858576793_5457930792906481721_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeF-CUietd4l9JPuluh56XwHnhqtDRB5QDieGq0NEHlAOBK9dN7r52yYTnKmDpAfYXt_VOqOrJmgHMRMCfV520Jt&_nc_ohc=5rw9tioWn_MQ7kNvgHAp8MH&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-2.fna&_nc_gid=AELEe-abwKETsaYBPH95yqH&oh=00_AYDewhGkYjMZsvVp3OrEpMY5AoF9hIg92mn6-aHSuy0n3A&oe=6775B191",
+      link: "#"
+    },
+    {
+      name: "Alas Kwatro Films",
+      url: "https://scontent.fmnl33-1.fna.fbcdn.net/v/t39.30808-6/301372431_444322591048302_6916104531039484980_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeF3ReCC_DCbwHd9tNY1nIhcthuKBfBHQz-2G4oF8EdDP9dQkKCuobhX6QuxUvLvdnmQYGq_5V3JdMEAwK7cqU-9&_nc_ohc=Kc-_xtcIKU8Q7kNvgFzhWX1&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-1.fna&_nc_gid=ADV_iAVMnkfDiD0lNm1NtAw&oh=00_AYCDnH0XHVgl6vOgP1w-hlkR0t6Bkj_o6t5hOxy2la9syQ&oe=6775883C",
+      link: "#"
     }
   ];
 

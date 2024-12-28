@@ -3,34 +3,34 @@ import React from 'react'
 function Hackathon() {
   const hackathons = [
     {
-      title: "Hack The Track 2024",
+      title: "The NextGen Start-Up Challenge 2024",
       role: "Participant",
-      date: "January 2024",
-      organizer: "PLM Computer Science Society",
-      description: "A 24-hour hackathon focused on developing innovative solutions for transportation challenges.",
-      achievement: "Top 10 Finalist",
-      techStack: ["React", "Node.js", "MongoDB"],
-      image: "https://scontent.fmnl33-5.fna.fbcdn.net/v/t39.30808-6/468626051_1013334560805793_498166945573761532_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEGuAoXhaBkWlNXuAsA2fPKG186yR4vNCQbXzrJHi80JFwnMBlHdUwmebM6EYhlsIfQX74oLlr0f33lcZlScJBH&_nc_ohc=Qk23rq9oUGQQ7kNvgHmelOL&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-5.fna&_nc_gid=AupRZS1zR2l7leG-jB11tLK&oh=00_AYDd3ghyayjE-f9IZH4NNux0N1Ez51g2sSSrLu0Yt5EDhg&oe=67756390"
+      date: "July 2024",
+      organizer: "Information Systems NextGen - Mapúa Universty-Makati",
+      description: "Start-Up Challenge 2024 Pitching Day held on July 27, 2024 at Mapúa Cardinal.",
+      achievement: "1st Placer",
+      techStack: ["IOT", "UI/UX", "Python"],
+      image: "https://media.licdn.com/dms/image/v2/D562DAQFDSUmM47KBlg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1723353039167?e=1735988400&v=beta&t=HOvOFH7jv10dxyN64YotMsLUxuvpdDYMf2gu75_h1y4"
     },
     {
-      title: "Hack The Track 2024",
+      title: "Blockchain Campus Conference Whack A Thon",
       role: "Participant",
-      date: "January 2024",
-      organizer: "PLM Computer Science Society",
-      description: "A 24-hour hackathon focused on developing innovative solutions for transportation challenges.",
-      achievement: "Top 10 Finalist",
-      techStack: ["React", "Node.js", "MongoDB"],
-      image: "https://scontent.fmnl33-5.fna.fbcdn.net/v/t39.30808-6/468626051_1013334560805793_498166945573761532_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEGuAoXhaBkWlNXuAsA2fPKG186yR4vNCQbXzrJHi80JFwnMBlHdUwmebM6EYhlsIfQX74oLlr0f33lcZlScJBH&_nc_ohc=Qk23rq9oUGQQ7kNvgHmelOL&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-5.fna&_nc_gid=AupRZS1zR2l7leG-jB11tLK&oh=00_AYDd3ghyayjE-f9IZH4NNux0N1Ez51g2sSSrLu0Yt5EDhg&oe=67756390"
+      date: "June 2024",
+      organizer: "Superteam Philippines",
+      description: "A Design Thinking Hackathon that aims to create a solution for bonk coin",
+      achievement: "3rd Placer",
+      techStack: ["Figma", "Node.js", "Blockchain"],
+      image: "https://media.licdn.com/dms/image/v2/D4D2DAQEcubT2gWhy-g/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1721351043242?e=1735988400&v=beta&t=sT70wjfDqCkQVyPm9J0ZnWBoZfbCy8rLmDqKNBlhJMU"
     },
     {
-      title: "Hack The Track 2024",
+      title: "Hack the Future: Technology for a Better World",
       role: "Participant",
-      date: "January 2024",
-      organizer: "PLM Computer Science Society",
-      description: "A 24-hour hackathon focused on developing innovative solutions for transportation challenges.",
-      achievement: "Top 10 Finalist",
+      date: "November 2024",
+      organizer: "Kaya Founders",
+      description: "A 24-hour hackathon focused on developing solutions for tourism.",
+      achievement: "3rd Placer",
       techStack: ["React", "Node.js", "MongoDB"],
-      image: "https://scontent.fmnl33-5.fna.fbcdn.net/v/t39.30808-6/468626051_1013334560805793_498166945573761532_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEGuAoXhaBkWlNXuAsA2fPKG186yR4vNCQbXzrJHi80JFwnMBlHdUwmebM6EYhlsIfQX74oLlr0f33lcZlScJBH&_nc_ohc=Qk23rq9oUGQQ7kNvgHmelOL&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-5.fna&_nc_gid=AupRZS1zR2l7leG-jB11tLK&oh=00_AYDd3ghyayjE-f9IZH4NNux0N1Ez51g2sSSrLu0Yt5EDhg&oe=67756390"
+      image: "https://scontent.fmnl33-6.fna.fbcdn.net/v/t1.15752-9/465001100_2307033012989865_5986096322232073984_n.png?_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHPY2M6CSmSR-UbWBV31N-IvyfYX05hOH-_J9hfTmE4fwaLjcQDZC4rWpgPzk3hp_0oXi5SD7h9JYifZFoabJM3&_nc_ohc=X_VvzTQQ2jYQ7kNvgGGq0yi&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-6.fna&oh=03_Q7cD1gFKnwmIRpMp5M19rFX6Ej51-GeHRyYPqQv8PP1ynkFofw&oe=67973C9A"
     },
     // Add more hackathons here
   ];

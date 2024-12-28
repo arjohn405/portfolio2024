@@ -105,8 +105,8 @@ nav a:hover {
 }
 
 .hero-content h1 {
-  font-size: 3rem;
-  font-weight: 500;
+  font-size: 5rem;
+  font-weight: 950;
   margin-bottom: 1.5rem;
   line-height: 1.2;
   background: linear-gradient(135deg, var(--text-color) 0%, var(--accent-color) 100%);
