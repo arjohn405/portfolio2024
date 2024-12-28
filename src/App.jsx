@@ -10,12 +10,21 @@ import Contact from './components/Contact'
 function App() {
   return (
     <div className="app">
+      <div className="background-lines">
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+      </div>
       <Header />
       <main>
         <div className="hero-section">
           <div className="hero-content">
             <h1>Hi, I'm <span className="highlight">Arjohn</span></h1>
             <p className="hero-text">Junior Developer & UI/UX Designer</p>
+            
             <div className="hero-buttons">
               <a href="#projects" className="primary-btn">View My Work</a>
               <a href="#contact" className="secondary-btn">Contact Me</a>

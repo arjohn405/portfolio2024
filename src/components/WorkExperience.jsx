@@ -4,9 +4,9 @@ function WorkExperience() {
   const experiences = [
     {
       company: "ABS-CBN Corporation",
-      position: "YouTube Video Complience",
+      position: "YouTube Video Compliance",
       period: "May 16, 2023 - October 16, 2024",
-      description: "100% Data validation of song/OSR ownership in various YouTube channel content with publishing team.",
+      description: "100% Data validation of song/OSR ownership in various YouTube channels.",
       achievements: [
         "Data Visualization and Analysis",
         "Ownership Validation and Compliance",
@@ -25,7 +25,7 @@ function WorkExperience() {
       ]
     },
     {
-      company: "MaxOut Digital Marketing Agency.",
+      company: "MaxOut Digital Marketing Agency",
       position: "Sales Executive",
       period: "February 8, 2022- July 5, 2023",
       description: "Worked as a Part time Sales Executive.",
