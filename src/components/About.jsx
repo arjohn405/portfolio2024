@@ -12,7 +12,7 @@ function About() {
           />
         </div>
         <div className="about-content">
-          <p>Hi, I'm <span className="highlight">Arjohn V. Capucion</span>, a passionate Freelancer, Video Editor, and Front-end Developer based in Quezon City, Philippines.</p><br/>
+          <p>Hi, I'm <span className="highlight">Arjohn V. Capucion</span>, a passionate Freelancer, Video Editor, and Front-end Developer based in Quezon City, Philippines. The Chief of Opertations in <span className="highlight">Craftora</span></p><br/>
           <p> Currently pursuing a <span className="highlight">Bachelor of Science in Computer Science</span> at the Technological Institute of the Philippines, I combine my technical knowledge, creativity, and leadership experience to deliver innovative solutions.</p><br/>
           <p> With a strong background in Video Editing, UI/UX Design, and collaborative projects, I thrive in roles that blend technology and artistry </p>
           
