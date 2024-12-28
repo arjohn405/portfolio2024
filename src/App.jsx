@@ -6,6 +6,8 @@ import WorkExperience from './components/WorkExperience'
 import Projects from './components/Projects'
 import Speaking from './components/Speaking'
 import Contact from './components/Contact'
+import Hackathon from './components/Hackathon'
+import Volunteer from './components/Volunteer'
 
 function App() {
   return (
@@ -42,6 +44,8 @@ function App() {
         <WorkExperience />
         <Projects />
         <Speaking />
+        <Hackathon />
+        <Volunteer />
         <Contact />
       </main>
       <footer>
