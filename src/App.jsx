@@ -29,7 +29,7 @@ function App() {
             
             <div className="hero-buttons">
               <a href="#projects" className="primary-btn">View My Work</a>
-              <a href="#contact" className="secondary-btn">Contact Me</a>
+              <a href="#contact" className="secondary-btn">Hire Me!</a>
             </div>
           </div>
           <div className="hero-image-container">

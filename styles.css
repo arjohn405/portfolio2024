@@ -308,44 +308,139 @@ footer {
 } 
 
 /* Work Experience Styles */
+.experience-container {
+  position: relative;
+  padding: 0 2rem;
+  margin: 0 -2rem; /* Compensate for section padding */
+}
+
 .experience-timeline {
-  max-width: 800px;
-  margin: 0 auto;
   display: flex;
-  flex-direction: column;
   gap: 2rem;
-  align-items: center;
+  padding: 2rem 0;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.experience-timeline::-webkit-scrollbar {
+  display: none;
 }
 
 .experience-card {
-  width: 145%;
+  flex: 0 0 600px; /* Fixed width for cards */
+  scroll-snap-align: start;
+  --accent-color: var(--primary-color);
   background: rgba(53, 53, 53, 0.5);
   border: 1px solid rgba(83, 83, 83, 0.3);
-  border-radius: 12px;
+  border-radius: 16px;
   padding: 2rem;
-  text-align: center;
-  transition: transform 0.3s ease;
+  position: relative;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+/* Scroll Buttons */
+.experience-container .scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(53, 53, 53, 0.5);
+  border: 1px solid rgba(83, 83, 83, 0.3);
+  color: var(--text-color);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 2;
+}
+
+.experience-container .scroll-button:hover {
+  background: var(--primary-color);
+  color: var(--background-color);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.experience-container .scroll-button.left {
+  left: 1rem;
+}
+
+.experience-container .scroll-button.right {
+  right: 1rem;
+}
+
+/* Keep existing card styles */
+.experience-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--accent-color);
+  opacity: 0.8;
 }
 
 .experience-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-5px); /* Changed from translateX to translateY */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Update responsive styles */
+@media (max-width: 768px) {
+  .experience-card {
+    flex: 0 0 85vw; /* Adjust card width for mobile */
+  }
+  
+  .experience-container .scroll-button {
+    width: 32px;
+    height: 32px;
+  }
 }
 
 .experience-header {
+  display: flex;
+  gap: 1.5rem;
   margin-bottom: 1.5rem;
+  align-items: center;
 }
 
-.experience-header h3 {
-  color: var(--primary-color);
+.company-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+  padding: 0.5rem;
+  border: 1px solid rgba(83, 83, 83, 0.3);
+}
+
+.company-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.company-info {
+  flex: 1;
+}
+
+.company-info h3 {
   font-size: 1.5rem;
+  color: var(--accent-color);
   margin-bottom: 0.5rem;
 }
 
 .company {
   display: block;
-  color: var(--text-color);
   font-size: 1.1rem;
-  margin-bottom: 0.5rem;
+  color: var(--text-color);
+  margin-bottom: 0.25rem;
 }
 
 .period {
@@ -354,23 +449,56 @@ footer {
   font-size: 0.9rem;
 }
 
+.experience-description {
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.achievements-container h4 {
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
 .achievements {
   list-style: none;
   padding: 0;
-  margin-top: 1.5rem;
 }
 
 .achievements li {
-  margin: 0.5rem 0;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
   color: var(--text-muted);
+  margin-bottom: 0.5rem;
+  transition: transform 0.2s ease;
 }
 
-.achievements li::before {
-  content: "•";
-  color: var(--primary-color);
-  font-weight: bold;
-  display: inline-block;
-  margin-right: 0.5rem;
+.achievements li:hover {
+  transform: translateX(5px);
+  color: var(--text-color);
+}
+
+.achievement-bullet {
+  color: var(--accent-color);
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .experience-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .company-logo {
+    margin: 0 auto;
+  }
+
+  .experience-card::before {
+    width: 100%;
+    height: 4px;
+  }
 }
 
 /* Logo Scroll Styles */
