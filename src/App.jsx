@@ -36,11 +36,11 @@ function App() {
         <Contact />
       </main>
       <footer>
-        <p>© 2024 Your Portfolio. All rights reserved.</p>
+        <p>© 2024 Arjohn C. All rights reserved.</p>
         <div className="social-links">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+          <a href="https://github.com/arjohn405" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/arjohn-capucion/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.instagram.com/arjohn.capucion/" target="_blank" rel="noopener noreferrer">Instagram</a>
         </div>
       </footer>
     </div>

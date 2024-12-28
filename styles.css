@@ -1,15 +1,16 @@
 /* Reset and Base Styles */
 :root {
-  --primary-color: #3b82f6;
-  --secondary-color: #60a5fa;
-  --background-color: #0f172a;
-  --surface-color: #1e293b;
-  --text-color: #e2e8f0;
-  --text-muted: #94a3b8;
-  --accent-color: #38bdf8;
-  --white: #ffffff;
-  --card-bg: #1e293b;
-  --border-color: #334155;
+  --primary-color: rgba(59, 130, 246, 0.9);
+  --secondary-color: rgba(96, 165, 250, 0.9);
+  --background-color: #0a0f1c;
+  --glass-bg: rgba(30, 41, 59, 0.2);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --text-color: rgba(226, 232, 240, 0.95);
+  --text-muted: rgba(148, 163, 184, 0.8);
+  --accent-color: rgba(56, 189, 248, 0.9);
+  --white: rgba(255, 255, 255, 0.95);
+  --card-bg: rgba(30, 41, 59, 0.3);
+  --border-color: rgba(51, 65, 85, 0.3);
 }
 
 * {
@@ -19,22 +20,25 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   color: var(--text-color);
-  background-color: var(--background-color);
+  background: linear-gradient(135deg, #0a0f1c 0%, #1e293b 100%);
+  min-height: 100vh;
   font-size: 16px;
 }
 
 /* Header Styles */
 header {
-  background-color: var(--background-color);
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   padding: 1.5rem 0;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--glass-border);
 }
 
 nav {
@@ -93,10 +97,13 @@ nav a:hover {
   transform: translate(-50%, -50%);
   text-align: center;
   z-index: 2;
-  background: rgba(15, 23, 42, 0.7);
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
   padding: 2rem;
   border-radius: 16px;
-  backdrop-filter: blur(8px);
   width: 90%;
   max-width: 800px;
 }
@@ -106,6 +113,10 @@ nav a:hover {
   font-weight: 500;
   margin-bottom: 1.5rem;
   line-height: 1.2;
+  background: linear-gradient(135deg, var(--text-color) 0%, var(--accent-color) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .hero-text {
@@ -119,12 +130,33 @@ section {
   padding: 6rem 2rem;
   max-width: 1200px;
   margin: 0 auto;
+  position: relative;
+}
+
+section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--glass-bg);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 16px;
+  z-index: -1;
+  margin: -20px;
+  opacity: 0.5;
 }
 
 section h2 {
   font-size: 2rem;
   margin-bottom: 3rem;
   font-weight: 500;
+  background: linear-gradient(135deg, var(--text-color) 0%, var(--accent-color) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* Project Cards */
@@ -149,8 +181,11 @@ section h2 {
 .project-card {
   flex: 0 0 400px;
   scroll-snap-align: start;
-  background: var(--card-bg);
-  border: 1px solid var(--border-color);
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
   border-radius: 12px;
   overflow: hidden;
 }
@@ -184,7 +219,10 @@ section h2 {
 }
 
 .tech-tag {
-  background: var(--surface-color);
+  background: var(--glass-bg);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid var(--glass-border);
   color: var(--accent-color);
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
@@ -199,8 +237,11 @@ section h2 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: var(--primary-color);
-  border: none;
+  background: var(--glass-bg);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
   color: white;
   cursor: pointer;
   display: flex;
@@ -211,7 +252,7 @@ section h2 {
 }
 
 .scroll-button:hover {
-  background: var(--secondary-color);
+  background: var(--primary-color);
   transform: translateY(-50%) scale(1.1);
 }
 
@@ -227,8 +268,11 @@ section h2 {
 .contact-floating-card {
   max-width: 600px;
   margin: 0 auto;
-  background: var(--card-bg);
-  border: 1px solid var(--border-color);
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 
@@ -236,7 +280,11 @@ section h2 {
 .floating-input textarea {
   width: 100%;
   padding: 1rem;
-  border: 1px solid var(--border-color);
+  background: var(--glass-bg);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid var(--glass-border);
+  color: var(--text-color);
   border-radius: 4px;
   font-size: 1rem;
 }
@@ -244,7 +292,11 @@ section h2 {
 .submit-button {
   width: 100%;
   padding: 1rem;
-  background: var(--accent-color);
+  background: var(--glass-bg);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
   color: white;
   border: none;
   border-radius: 4px;
@@ -256,7 +308,10 @@ section h2 {
 footer {
   padding: 2rem;
   text-align: center;
-  border-top: 1px solid var(--border-color);
+  background: var(--glass-bg);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-top: 1px solid var(--glass-border);
 }
 
 .social-links {
@@ -290,8 +345,11 @@ footer {
 }
 
 .experience-card {
-  background: var(--card-bg);
-  border: 1px solid var(--border-color);
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
   border-radius: 12px;
   padding: 2rem;
   transition: transform 0.3s ease;
@@ -336,7 +394,11 @@ footer {
 /* Logo Scroll Styles */
 .logo-scroll-section {
   padding: 4rem 0;
-  background: var(--surface-color);
+  background: var(--glass-bg);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-top: 1px solid var(--glass-border);
+  border-bottom: 1px solid var(--glass-border);
   overflow: hidden;
 }
 
@@ -386,7 +448,11 @@ footer {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: var(--primary-color);
+  background: var(--glass-bg);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
   color: white;
   padding: 1rem 2rem;
   border-radius: 8px;
@@ -397,8 +463,9 @@ footer {
 }
 
 .resume-button:hover {
-  background: var(--secondary-color);
+  background: var(--primary-color);
   transform: translateY(-2px);
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.3);
 }
 
 .resume-button svg {
@@ -415,8 +482,11 @@ footer {
 }
 
 .speaking-card {
-  background: var(--card-bg);
-  border: 1px solid var(--border-color);
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
   border-radius: 12px;
   overflow: hidden;
   transition: transform 0.3s ease;
@@ -516,24 +586,29 @@ footer {
 }
 
 .primary-btn {
-  background: var(--primary-color);
+  background: var(--glass-bg);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
   color: white;
   border: none;
 }
 
 .primary-btn:hover {
-  background: var(--secondary-color);
+  background: var(--primary-color);
   transform: translateY(-2px);
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.3);
 }
 
 .secondary-btn {
   background: transparent;
   color: var(--text-color);
-  border: 2px solid var(--primary-color);
+  border: 2px solid var(--glass-bg);
 }
 
 .secondary-btn:hover {
-  background: var(--primary-color);
+  background: var(--glass-bg);
   color: white;
   transform: translateY(-2px);
 }
@@ -562,4 +637,5 @@ footer {
 /* Highlight Text */
 .highlight {
   color: var(--primary-color);
+  text-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
 } 

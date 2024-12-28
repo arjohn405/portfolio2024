@@ -3,27 +3,27 @@ import React from 'react'
 function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React and Node.js",
-      image: "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      technologies: ["React", "Node.js", "MongoDB"],
-      github: "https://github.com/yourusername/e-commerce-platform",
+      title: "ResuMech: Automated Resume Analysis Engine",
+      description: "The primary goal of this project is to develop an intelligent system that utilizes Natural Language Processing (NLP) techniques to analyze resumes.",
+      image: "https://images.pexels.com/photos/5598289/pexels-photo-5598289.jpeg?auto=compress&cs=tinysrgb&w=800",
+      technologies: ["Python", "HTML", "CSS"],
+      github: "https://github.com/arjohn405/resume-project.git",
       demo: "#"
     },
     {
-      title: "Social Media Dashboard",
-      description: "Analytics dashboard with real-time data visualization",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      technologies: ["Vue.js", "D3.js", "Firebase"],
-      github: "https://github.com/yourusername/social-dashboard",
+      title: "Smart Drowsiness Detection with Real-Time Gender Classification",
+      description: "An AI-powered system detecting drowsiness, yawning, and classifying gender in real time. Features alarm alerts.",
+      image: "https://images.pexels.com/photos/1392621/pexels-photo-1392621.jpeg?auto=compress&cs=tinysrgb&w=800",
+      technologies: ["Python", "HTML", "CSS"],
+      github: "https://github.com/arjohn405/drown-detect.git",
       demo: "#"
     },
     {
-      title: "AI Image Generator",
-      description: "Machine learning powered image generation tool",
-      image: "https://images.unsplash.com/photo-1547954575-855750c57bd3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      title: "Culinary AI: Recipe Generation and Image Recognition",
+      description: "A system that generates recipes ingredients.",
+      image: "https://images.pexels.com/photos/9028872/pexels-photo-9028872.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["Python", "TensorFlow", "React"],
-      github: "https://github.com/yourusername/ai-image-generator",
+      github: "https://github.com/arjohn405/recipe-ai.git",
       demo: "#"
     },
     {
@@ -31,15 +31,7 @@ function Projects() {
       description: "Personal portfolio website built with React and Vite",
       image: "https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
       technologies: ["React", "Vite", "CSS3"],
-      github: "https://github.com/yourusername/portfolio",
-      demo: "#"
-    },
-    {
-      title: "Task Management App",
-      description: "Collaborative task management platform with real-time updates",
-      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      technologies: ["React", "Socket.io", "Express"],
-      github: "https://github.com/yourusername/task-manager",
+      github: "https://github.com/arjohn405/portfolio2024.git",
       demo: "#"
     }
   ];

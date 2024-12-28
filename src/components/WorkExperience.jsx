@@ -3,36 +3,36 @@ import React from 'react'
 function WorkExperience() {
   const experiences = [
     {
-      company: "Tech Solutions Inc.",
-      position: "Senior Full Stack Developer",
-      period: "2022 - Present",
-      description: "Led development of enterprise-level applications using React and Node.js",
+      company: "ABS-CBN Corporation",
+      position: "YouTube Video Complience",
+      period: "May 16, 2023 - October 16, 2024",
+      description: "100% Data validation of song/OSR ownership in various YouTube channel content with publishing team.",
       achievements: [
-        "Improved application performance by 40%",
-        "Led a team of 5 developers",
-        "Implemented CI/CD pipeline"
+        "Data Visualization and Analysis",
+        "Ownership Validation and Compliance",
+        "Report Generation and Presentation"
       ]
     },
     {
-      company: "Digital Innovations",
-      position: "Frontend Developer",
-      period: "2020 - 2022",
-      description: "Developed responsive web applications using modern JavaScript frameworks",
+      company: "SQME Professionals, Inc.",
+      position: "Web Developer Intern",
+      period: "October 18, 2021- January 18, 2022",
+      description: "Worked as a Front End Developer Intern.",
       achievements: [
-        "Built 20+ client websites",
-        "Reduced load time by 60%",
-        "Mentored junior developers"
+        "Built design for the website",
+        "Conducted Front End Development",
+        "Implement users experience testing"
       ]
     },
     {
-      company: "StartUp Hub",
-      position: "Junior Developer",
-      period: "2019 - 2020",
-      description: "Worked on various web development projects using React and Vue.js",
+      company: "MaxOut Digital Marketing Agency.",
+      position: "Sales Executive",
+      period: "February 8, 2022- July 5, 2023",
+      description: "Worked as a Part time Sales Executive.",
       achievements: [
-        "Developed 5 major features",
-        "Implemented responsive designs",
-        "Collaborated with UX team"
+        "Developed 5 projects in a span of 5 months",
+        "Timely Delivery of Projects and Clients",
+        "Closing Deals and Sales"
       ]
     }
   ];
