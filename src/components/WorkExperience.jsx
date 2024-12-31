@@ -26,7 +26,7 @@ function WorkExperience() {
         "Report Generation and Presentation"
       ],
       logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFmqs9glBwQcw/company-logo_200_200/company-logo_200_200/0/1630548466099/abs_cbn_logo?e=1743638400&v=beta&t=ljza5nPrikdaWx9qQIMgyKf9ENjuQeHRddczfpw_FRY",
-      color: "#1b75bb"
+      color: "#ff6b6b"
     },
     {
       company: "SQME Professionals, Inc.",
@@ -39,7 +39,7 @@ function WorkExperience() {
         "Implement users experience testing"
       ],
       logo: "https://media.licdn.com/dms/image/v2/C510BAQFFuFtuPo7_QA/company-logo_200_200/company-logo_200_200/0/1630635152786/sqme_professionals_inc_logo?e=1743638400&v=beta&t=0uWhJDL5FArJ21NQ07CXc0EStLRWq9KxI6OIFwGOWWk",
-      color: "#ff6b6b"
+      color: "#1b75bb"
     },
     {
       company: "MaxOut Digital Marketing Agency",
@@ -53,6 +53,19 @@ function WorkExperience() {
       ],
       logo: "https://media.licdn.com/dms/image/v2/C560BAQEjXokYVHbMdA/company-logo_100_100/company-logo_100_100/0/1661959124145?e=1743638400&v=beta&t=i9l9abSygwJDTkFWSw000GgoUzPb2ryJgeS11DVRWLY",
       color: "#4ecdc4"
+    },
+    {
+      company: "Moxie Denver Entertainment",
+      position: "Freelance Video Editor",
+      period: "Oct 13, 2022 - Dec 20, 2023 ",
+      description: "Worked as a Project Base Video Editor.",
+      achievements: [
+        "Create 5 video projects in a span of 1 month",
+        "Timely Delivery weekly video projects",
+        "Clear Communication with the client"
+      ],
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7TpZyahTO57RyK1d3MVyoRgxo3fSPBm_V0Q&s",
+      color: "#feb626"
     }
   ];
 

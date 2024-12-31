@@ -8,6 +8,7 @@ import Speaking from './components/Speaking'
 import Contact from './components/Contact'
 import Hackathon from './components/Hackathon'
 import Volunteer from './components/Volunteer'
+import VideoPortfolio from './components/VideoPortfolio'
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
         <Speaking />
         <Hackathon />
         <Volunteer />
+        <VideoPortfolio />
         <Contact />
       </main>
       <footer>
