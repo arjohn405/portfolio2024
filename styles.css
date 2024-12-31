@@ -123,7 +123,7 @@ nav a:hover {
 
 /* Section Styles */
 section {
-  padding: 6rem 2rem;
+  padding: 4rem 2rem;
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
@@ -1152,4 +1152,23 @@ body {
 
 .video-button:hover {
   background-color: var(--secondary-color);
+} 
+
+/* Banner Styles */
+.banner {
+  height: 320px; /* Set the height of the banner */
+  width: 100%; /* Full width */
+  padding-right: 1000px; /* Adjust padding as needed */
+  padding-left: 1000px; /* Adjust padding as needed */
+  background-image: url(https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80);
+  background-size: cover; /* Cover the entire area */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+  background-attachment: fixed; /* Fixed background attachment */
+  display: flex; /* Center content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.banner-image {
+  display: none; /* Hide the image since we are using a background image */
 } 

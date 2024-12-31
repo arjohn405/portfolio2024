@@ -9,6 +9,7 @@ import Contact from './components/Contact'
 import Hackathon from './components/Hackathon'
 import Volunteer from './components/Volunteer'
 import VideoPortfolio from './components/VideoPortfolio'
+import Banner from './components/Banner'
 
 function App() {
   return (
@@ -44,10 +45,13 @@ function App() {
         <LogoScroll />
         <WorkExperience />
         <Projects />
+        <Banner imageUrl="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=869&q=80" />
         <Speaking />
         <Hackathon />
+        <Banner imageUrl="https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
         <Volunteer />
         <VideoPortfolio />
+        <Banner imageUrl="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
         <Contact />
       </main>
       <footer>
