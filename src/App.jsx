@@ -10,6 +10,7 @@ import Hackathon from './components/Hackathon'
 import Volunteer from './components/Volunteer'
 import VideoPortfolio from './components/VideoPortfolio'
 import Banner from './components/Banner'
+import UIUXPortfolio from './components/UIUXPortfolio'
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
         <Volunteer />
         <VideoPortfolio />
         <Banner imageUrl="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
+        <UIUXPortfolio />
         <Contact />
       </main>
       <footer>
