@@ -4,7 +4,7 @@ function LogoScroll() {
   const logos = [
     {
       name: "MSC TIP",
-      url: "https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/458211241_536038098954784_3936765564654395841_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGgH7L0o5FmF6uFIGSdTyWJ1F3qWYoiU2vUXepZiiJTa9RFSVwmlrJTpWdfjQ1qpAq8xtaezMKTC3EV3yFBiVBQ&_nc_ohc=WVe9pXG5o8cQ7kNvgHEtMEa&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fcrk3-2.fna&_nc_gid=AmhDUmG7lIg0NEjeXSv-EkQ&oh=00_AYDIOhVFZMIiYcNgNvpuYHnEEnWOc6JEpPx0fJlsh9a2wg&oe=67712F20",
+      url: "https://scontent.fmnl33-5.fna.fbcdn.net/v/t1.15752-9/471478480_1107885850796706_6036132653843151556_n.png?_nc_cat=105&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHdATrSx5VSq0UETssIs6v5t8YAzcSWcPW3xgDNxJZw9VtwLR2BYP8rBhXA1ABn9fd1c9L0D_NJoHwmFMq9lM2f&_nc_ohc=fCU2P_hb-WsQ7kNvgFFplJr&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-5.fna&oh=03_Q7cD1gHuay6jemv47BDQvKdKHXA53ip6Q6tECS5_LZmXo_BzYw&oe=679DA2CD",
       link: "#"
     },
     {
@@ -14,22 +14,22 @@ function LogoScroll() {
     },
     {
       name: "Open Society",
-      url: "https://scontent.fcrk3-2.fna.fbcdn.net/v/t1.6435-9/66648021_875942602776018_623300136625242112_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFYuH4PItUKlJg15TeQIylAVDfdn2nyZ7NUN92fafJns7lzizaskIWCUdJ6XR_8-VN-zdCOt_2r-PrsVZODzzvk&_nc_ohc=2w2SulsOD18Q7kNvgFMPzBs&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fcrk3-2.fna&_nc_gid=AiNusKajNNXiyItht-Gbt4m&oh=00_AYB7F6fyyWbF2J9WOqUznCBPJdfiVr2yBi3FAJrnn41_6Q&oe=6792CCCE",
+      url: "https://scontent.fmnl33-3.fna.fbcdn.net/v/t1.15752-9/467482416_488709124240328_7882729619153599290_n.png?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeE_DMQPn2LAtfpKXpuBVtKK_DHIyEp0r638McjISnSvrQIL9rMbl_hzLsWMWSvDmaIZht3tPWTahQKpL3Uovoha&_nc_ohc=-sUScq2tm2MQ7kNvgFYdNHI&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-3.fna&oh=03_Q7cD1gFK4G-suKyyIj6D5QglskOccfEDX2okyd1Yxtu5Mu3y-Q&oe=679D91AE",
       link: "#"
     },
     {
       name: "The Spectrum",
-      url: "https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/283080926_5068743213251193_8282183532686120542_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGtMmBbmh-wdPSGNc_t3SNKFd-wqjUn-qoV37CqNSf6qpWm4b5tbcpZL8RUEm_ygyHX9fu59zD8l89Tl9_g5Mdr&_nc_ohc=bFfDVunNbbUQ7kNvgF4E6YT&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fcrk3-2.fna&_nc_gid=ABh3aMMp-wf7pUyH6flUbH9&oh=00_AYA6BtBzvvl8CZ57NhE0k_K4rYJrJwbA68WTfwkyTYaHTg&oe=67716372",
+      url: "https://scontent.fmnl33-3.fna.fbcdn.net/v/t1.15752-9/470050734_4089318051298730_3516370618797966004_n.png?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeF3dng2mqg_UQaiom24CX8U9n2HCrAK1Nz2fYcKsArU3LPhX9bseMxOz_a6pL4N8-Z7f3PZSwMRMd7mbyKIVqcp&_nc_ohc=-lW0rKhN-58Q7kNvgE05Iks&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-3.fna&oh=03_Q7cD1gGmh59eAG_McWXjSwR5miqUWfGgwiD65ihpiVKJhNzQhg&oe=679D8955",
       link: "#"
     },
     {
       name: "Craftora",
-      url: "https://scontent.fmnl33-2.fna.fbcdn.net/v/t39.30808-6/464781134_122104892858576793_5457930792906481721_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeF-CUietd4l9JPuluh56XwHnhqtDRB5QDieGq0NEHlAOBK9dN7r52yYTnKmDpAfYXt_VOqOrJmgHMRMCfV520Jt&_nc_ohc=5rw9tioWn_MQ7kNvgHAp8MH&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-2.fna&_nc_gid=AELEe-abwKETsaYBPH95yqH&oh=00_AYDewhGkYjMZsvVp3OrEpMY5AoF9hIg92mn6-aHSuy0n3A&oe=6775B191",
+      url: "https://scontent.fmnl33-6.fna.fbcdn.net/v/t1.15752-9/471630273_616288887604916_7859516600942726064_n.png?_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFwQf6vEFJD9nRpKjtYqZ6SsuhNs6syZHmy6E2zqzJkeag4JSZya5j1au3gHqb9CU56Gb6y-5625WQpB_UhGgJr&_nc_ohc=VB0xzZqrapIQ7kNvgGkQkuc&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-6.fna&oh=03_Q7cD1gFEcIiRllqmo9SBWHH37PqE3LSUnRfDIzDlxg7mWmbVOA&oe=679D7D10",
       link: "#"
     },
     {
       name: "Alas Kwatro Films",
-      url: "https://scontent.fmnl33-1.fna.fbcdn.net/v/t39.30808-6/301372431_444322591048302_6916104531039484980_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeF3ReCC_DCbwHd9tNY1nIhcthuKBfBHQz-2G4oF8EdDP9dQkKCuobhX6QuxUvLvdnmQYGq_5V3JdMEAwK7cqU-9&_nc_ohc=Kc-_xtcIKU8Q7kNvgFzhWX1&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-1.fna&_nc_gid=ADV_iAVMnkfDiD0lNm1NtAw&oh=00_AYCDnH0XHVgl6vOgP1w-hlkR0t6Bkj_o6t5hOxy2la9syQ&oe=6775883C",
+      url: "https://scontent.fmnl33-2.fna.fbcdn.net/v/t1.15752-9/470057394_1343415403310739_5738990522214150482_n.png?_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGA6mqvFdT2-Wd54_yViX8_nIm47-yEalScibjv7IRqVD7cVM_0hkfHXkrRla_NdpdWfZaw0yhNw0X8HGEq3loh&_nc_ohc=6hU-CKshDhwQ7kNvgEEP4e4&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-2.fna&oh=03_Q7cD1gEYD9OKwzqIccmWXethFQs7y0x89lXvWQ0TNNpqCNHuUQ&oe=679D77C0",
       link: "#"
     }
   ];
