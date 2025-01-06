@@ -10,7 +10,7 @@ function Hackathon() {
       description: "Start-Up Challenge 2024 Pitching Day held on July 27, 2024 at Mapúa Cardinal.",
       achievement: "1st Placer",
       techStack: ["IOT", "UI/UX", "Python"],
-      image: "https://media.licdn.com/dms/image/v2/D562DAQFDSUmM47KBlg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1723353039167?e=1735988400&v=beta&t=HOvOFH7jv10dxyN64YotMsLUxuvpdDYMf2gu75_h1y4"
+      image: "https://scontent.fmnl33-6.fna.fbcdn.net/v/t1.15752-9/471850400_1142153883984095_7387870950622395221_n.png?_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGmHdgY6-xh-rThXVEDDhGzVZUVW4bSt7VVlRVbhtK3tQDVBk2VY1DBI1aHUc9mQesVNUTnPSP2Cbt4dX9YG26H&_nc_ohc=-x4iRDldCM8Q7kNvgFEl7Ua&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-6.fna&oh=03_Q7cD1gEyzHuBrV2vs6sIc8pPNRzEIdwLxBEMTPPeWFm35roUmg&oe=67A2D55C"
     },
     {
       title: "Blockchain Campus Conference Whack A Thon",
@@ -20,7 +20,7 @@ function Hackathon() {
       description: "A Design Thinking Hackathon that aims to create a solution for bonk coin",
       achievement: "3rd Placer",
       techStack: ["Figma", "Node.js", "Blockchain"],
-      image: "https://media.licdn.com/dms/image/v2/D4D2DAQEcubT2gWhy-g/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1721351043242?e=1735988400&v=beta&t=sT70wjfDqCkQVyPm9J0ZnWBoZfbCy8rLmDqKNBlhJMU"
+      image: "https://scontent.fmnl33-2.fna.fbcdn.net/v/t1.15752-9/472328594_3875887619407414_237138464850493189_n.png?_nc_cat=111&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHsKzZ5FkihO8AL762tymPMcO6CxlZQYYpw7oLGVlBhige5DdTd3HzQ21i8eG3ewIyB1u4gPAuIeWjx8RJ5tMu1&_nc_ohc=a6BCl8LETJ4Q7kNvgEutBgQ&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-2.fna&oh=03_Q7cD1gG4fBozmMBlJDG-CilPqhOvSnmmbUS11wlFnWEiV7knVA&oe=67A2E180"
     },
     {
       title: "Hack the Future: Technology for a Better World",
