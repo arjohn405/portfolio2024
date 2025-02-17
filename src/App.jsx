@@ -37,7 +37,7 @@ function App() {
           </div>
           <div className="hero-image-container">
             <img 
-              src="https://scontent.fmnl33-2.fna.fbcdn.net/v/t1.15752-9/467456245_457406087205842_1344710649005278150_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFcuwRUmM7tHDpxYY1fcN-u-DiS5HR_r2j4OJLkdH-vaH70esEc6_UC7cBPt_gVAnn8CQDrY4pS9yjQBP-l2mb5&_nc_ohc=ZqwV1wv3BzkQ7kNvgEWICBI&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-2.fna&oh=03_Q7cD1gGJmix8wuOrZvj1jYSNVIaWCKEV8Pb1NnWFdZwX9agzBg&oe=67975784" 
+              src="assets/banner.jpg" 
               alt="Developer workspace with laptop and code" 
             />
           </div>

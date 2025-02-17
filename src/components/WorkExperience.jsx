@@ -16,9 +16,22 @@ function WorkExperience() {
 
   const experiences = [
     {
+      company: "EduFied",
+      position: "UI/UX Designer Trainee",
+      period: "Jan 27, 2025 - Present ",
+      description: "Worked as a UI/UX Designer.",
+      achievements: [
+        "Create templates for the website",
+        "Timely Delivery weekly design projects",
+        "Communicate with the Project Manager and to the Developers"
+      ],
+      logo: "assets/fillpass.jpeg",
+      color: "#f3505e"
+    },
+    {
       company: "ABS-CBN Corporation",
       position: "YouTube Video Compliance",
-      period: "May 16, 2023 - October 16, 2024",
+      period: "May 16, 2023 - May 1, 2025",
       description: "100% Data validation of song/OSR ownership in various YouTube channels.",
       achievements: [
         "Data Visualization and Analysis",
@@ -66,7 +79,7 @@ function WorkExperience() {
       ],
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7TpZyahTO57RyK1d3MVyoRgxo3fSPBm_V0Q&s",
       color: "#feb626"
-    }
+    },
   ];
 
   return (

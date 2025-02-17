@@ -11,7 +11,7 @@ function UIUXPortfolio() {
       title: "HackHaive",
       description: "AI-powered virtual event platform designed for hackathon enthusiasts and innovators. ",
       images: [
-        "https://scontent.fmnl33-5.fna.fbcdn.net/v/t1.15752-9/471446163_1102570934887421_2505973350768290337_n.png?_nc_cat=101&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeETs_cBaEoqLv5zO5h0aifg6SLf9nuKHw3pIt_2e4ofDS3ZlAIeL0dDGiVNAXRDgOIYPOvEZ7dlxDOMtJTKvBi-&_nc_ohc=GENM9rbipCcQ7kNvgF_wRXt&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-5.fna&oh=03_Q7cD1gFjpo9Qh75RqxEMMSmxancpg8CxUm5JBcr7ZHBK8HXYlg&oe=679C6900",
+        "assets/hacakhaive2.png",
 
       ],
       previewUrl: "https://www.figma.com/proto/sRR2UawMCyZ8VimQXAPqdh/HACKHIVE-(OFFICIAL)?page-id=0%3A1&node-id=12-15&p=f&viewport=8944%2C-521%2C0.43&t=RTXKyLOAR7CKlnYZ-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=40%3A2455" // Replace with actual preview link
@@ -20,7 +20,7 @@ function UIUXPortfolio() {
       title: "TaHack",
       description: "A streamlined web platform helping users efficiently manage and progress through courses.",
       images: [
-        "https://scontent.fmnl33-1.fna.fbcdn.net/v/t1.15752-9/471542485_1104713004718162_9082213499272365984_n.png?_nc_cat=108&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEeeII3Vc8mM8K0eqNQE6fJjWOrODEio0uNY6s4MSKjS58LIkdagIjttIXzgeslR5IuCg9eDljOplNjMfLRPH8Q&_nc_ohc=C0bBclUQpdcQ7kNvgEdvc86&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-1.fna&oh=03_Q7cD1gEB1YRwy87iXuFkyN_U1DEVk2sUUFEJSaD344NYhdYi0Q&oe=679C87ED",
+        "assets/tahacklandingpage.png",
         
       ],
       previewUrl: "https://www.figma.com/proto/bTzpBdDAp4yiJYeiSiD4iF/TaHack-Web-Application?page-id=0%3A1&node-id=121-722&p=f&viewport=807%2C1621%2C0.18&t=TlKQMjTdUCwylyvO-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=121%3A722" // Replace with actual preview link
@@ -29,7 +29,7 @@ function UIUXPortfolio() {
       title: "EcoQuest",
       description: "A gamified mobile app motivating users to responsibly dispose of trash via challenges. ",
       images: [
-        "https://scontent.fmnl33-5.fna.fbcdn.net/v/t1.15752-9/470057394_2071668546615603_3203423572338456278_n.png?_nc_cat=105&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFZJuTV86sD1GV-pRqRvUw5razBkRxyNbmtrMGRHHI1udfzPs8--OhkBaxiwJqikaRtTmDaaXFWmbu-X3HH4lYp&_nc_ohc=Ph_9nRqXNyMQ7kNvgF8-8ag&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-5.fna&oh=03_Q7cD1gHeb3za8-lh0aWO9aTtb0lWfeTaLYUmmtyvJNFSipFY1w&oe=679C9D63",
+        "assets/ecogrow2.png",
 
       ],
       previewUrl: "https://www.figma.com/proto/G4s7gWKNgr3KKv7WIJsnbx/EcoGrow?page-id=0%3A1&node-id=6-9&p=f&viewport=-2535%2C-213%2C1.39&t=7mUxUMDloneBvfuu-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=6%3A9" // Replace with actual preview link
@@ -38,7 +38,7 @@ function UIUXPortfolio() {
       title: "VIBE",
       description: "An all-in-one app streamlining event planning, ticketing, and managing participants.",
       images: [
-        "https://scontent.fmnl33-1.fna.fbcdn.net/v/t1.15752-9/470054835_1895456934526688_7359167798574079597_n.png?_nc_cat=108&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeF-iy_rfep_oEbc_AeFP5XAjfbwfzbGjXiN9vB_NsaNePzDsjHiwxc5fJ6fJuRTx5fiMcWTtACUDrUw1tIHb1Yy&_nc_ohc=jVTMfcGLq3wQ7kNvgFfw1_L&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-1.fna&oh=03_Q7cD1gEMR8it7xJWs-pxju_LU794Ru778IZ6WD-dtdsAKDLVsA&oe=679C8706",
+        "assets/vibe.png",
         
       ],
       previewUrl: "https://www.figma.com/proto/8eDhadRWYZ6MGlZ4oQlSuU/VIIIBEEEE?page-id=913%3A2&node-id=913-3&viewport=525%2C270%2C0.06&t=6ykszckcjsAGvKD3-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=913%3A3&show-proto-sidebar=1" // Replace with actual preview link
@@ -47,10 +47,19 @@ function UIUXPortfolio() {
       title: "Hiraya",
       description: "An intuitive platform for easily browsing, booking, and managing hotel accommodations.",
       images: [
-        "https://scontent.fmnl33-6.fna.fbcdn.net/v/t1.15752-9/470058495_1775642646568712_8450981921435770896_n.png?_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGNpp8B60_vrJFBv9kbaEsT7SdPRVqY7U_tJ09FWpjtT0x_OjHkslHpUHItQsM-w1FQhOcrt505MOFDeipnztwE&_nc_ohc=6XxpcOrAl4kQ7kNvgH5UpCN&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-6.fna&oh=03_Q7cD1gHhCY1i8wrOS-Bpf_t_2G56lDdAAm8scXiq0UyL3LdxNQ&oe=679C8F99",
+        "assets/hiraya.png",
         
       ],
       previewUrl: "https://www.figma.com/proto/rjueSYFhNvcPV2KFUzbczu/Hiraya-Prototype?page-id=0%3A1&node-id=27-158&viewport=-242%2C340%2C0.1&t=BhPzCVZamxQBXcUh-1&scaling=contain&content-scaling=fixed&starting-point-node-id=27%3A158&show-proto-sidebar=1" // Replace with actual preview link
+    },
+    {
+      title: "Digi8 Studios",
+      description: "A profile website for Media Company Digi8 Studios that gives looks and baranding to it.",
+      images: [
+        "assets/digi8.png",
+        
+      ],
+      previewUrl: "https://www.digi8studios.com/" // Replace with actual preview link
     },
     // Add more UI/UX projects here with images array
   ];

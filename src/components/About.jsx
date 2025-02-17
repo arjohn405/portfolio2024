@@ -7,7 +7,7 @@ function About() {
       <div className="about-container">
         <div className="about-image">
           <img 
-            src="https://scontent.fmnl33-6.fna.fbcdn.net/v/t1.15752-9/470053576_1582349245987894_6540451321890667211_n.png?_nc_cat=106&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFm4aDEzTI0aJ8rnIOeObqG8pnbxSc_OcvymdvFJz85y2BFqoj_jqo-CIV35Vn3qDYRSjaWVZWidLwPAB9gKijM&_nc_ohc=LZ88ruyzBJwQ7kNvgG3VaRr&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fmnl33-6.fna&oh=03_Q7cD1gFQcDKMOh2H06gNu0um4BUTe0DIPbWjv8YJ3TlG5izdWg&oe=679D700C" 
+            src="assets/dp.png" 
             alt="Professional headshot" 
           />
         </div>
