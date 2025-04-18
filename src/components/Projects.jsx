@@ -5,7 +5,7 @@ function Projects() {
     {
       title: "ResuMech: Automated Resume Analysis Engine",
       description: "The project is to develop an intelligent system that utilizes Natural Language Processing (NLP) techniques to analyze resumes.",
-      image: "assets/resumech.png",
+      image: "/assets/resumech.png",
       technologies: ["Python", "HTML", "CSS"],
       github: "https://github.com/arjohn405/resume-project.git",
       demo: "#"
@@ -13,7 +13,7 @@ function Projects() {
     {
       title: "Smart Drowsiness Detection with Real-Time Gender Classification",
       description: "An AI-powered system detecting drowsiness, yawning, and classifying gender in real time. Features alarm alerts.",
-      image: "assets/fatigue.png",
+      image: "/assets/fatigue.png",
       technologies: ["Python", "HTML", "CSS"],
       github: "https://github.com/arjohn405/drown-detect.git",
       demo: "#"
@@ -21,7 +21,7 @@ function Projects() {
     {
       title: "Culinary AI: Recipe Generation and Image Recognition",
       description: "A system that generates recipes ingredients.",
-      image: "assets/recipeai.png",
+      image: "/assets/recipeai.png",
       technologies: ["Python", "TensorFlow", "React"],
       github: "https://github.com/arjohn405/recipe-ai.git",
       demo: "#"
@@ -29,7 +29,7 @@ function Projects() {
     {
       title: "Portfolio Website",
       description: "Personal portfolio website built with React and Vite",
-      image: "assets/portfolio.png",
+      image: "/assets/portfolio.png",
       technologies: ["React", "Vite", "CSS3"],
       github: "https://github.com/arjohn405/portfolio2024.git",
       demo: "https://arjohncapucion.vercel.app/"

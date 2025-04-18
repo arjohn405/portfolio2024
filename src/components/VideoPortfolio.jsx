@@ -20,80 +20,80 @@ function VideoPortfolio() {
       title: "JhaiHoVLOG | Episode 11",
       description: "JhaihoVLOG's",
       videoUrl: "https://youtu.be/FSvGqeTLoZk?si=9wDE_MnTPsZKvo9E",
-      thumbnail: "assets/jhaiho3.png"
+      thumbnail: "/assets/jhaiho3.png"
     },
     {
       title: "JhaiHoVLOG | Episode 06",
       description: "JhaihoVLOG's",
       videoUrl: "https://youtu.be/E5sM6lsWJpY?si=R5rq64UjP-onlod9",
-      thumbnail: "assets/jhaiho.png"
+      thumbnail: "/assets/jhaiho.png"
     },
     {
       title: "Fresh Skinlab Tomato Glass",
       description: "Miss Bea",
       videoUrl: "https://youtu.be/r1HdVq1yxDQ?si=iiajDAzndLkjbF9N",
-      thumbnail: "assets/bea2.png"
+      thumbnail: "/assets/bea2.png"
     },
     {
       title: "Maybelline Lifter Gloss ",
       description: "Miss Bea",
       videoUrl: "https://youtu.be/lkYJbQmrqfE?si=V0IAVJxG_lmdGQi-",
-      thumbnail: "assets/bea1.png"
+      thumbnail: "/assets/bea1.png"
     },
     {
       title: "Weekend Trip to Singapore",
       description: "Myrra Kate",
       videoUrl: "https://youtu.be/Cs2DYbaXKPk?si=TccrM8drSMXoPTKp",
-      thumbnail: "assets/myrasingapore.png"
+      thumbnail: "/assets/myrasingapore.png"
     },
     {
       title: "Kingdom Course Creator Ep 4",
       description: "Myrra Kate",
       videoUrl: "https://youtu.be/6A-ffSTCD-o?si=DuW_McgUq_smFKId",
-      thumbnail: "assets/myrapodcast.png"
+      thumbnail: "/assets/myrapodcast.png"
     },
 
     {
       title: "Somewhere in Colorado",
       description: "Somewhere in Colorado YT",
       videoUrl: "https://youtu.be/EOu4UPlDx1M",
-      thumbnail: "assets/moxie1.png"
+      thumbnail: "/assets/moxie1.png"
     },
     {
       title: "Beyond Tech Conference EP3",
       description: "DEVCON Philippines",
       videoUrl: "https://youtu.be/iSMsgW0y0hg",
-      thumbnail: "assets/devcon3.png"
+      thumbnail: "/assets/devcon3.png"
     },
     {
       title: "Beyond IT EP1 ",
       description: "DEVCON Philippines",
       videoUrl: "https://youtu.be/9KgiSCjwbCk",
-      thumbnail: "assets/devcon.png"
+      thumbnail: "/assets/devcon.png"
     },
     {
       title: "DECEMBER SPECIAL",
       description: "The Spectrum",
       videoUrl: "https://youtu.be/xGup-EE0v1Y",
-      thumbnail: "assets/tscontent.png"
+      thumbnail: "/assets/tscontent.png"
     },
     {
       title: "DOCUMENTARY SPECIAL",
       description: "The Spectrum",
       videoUrl: "https://youtu.be/M1dq48R973k",
-      thumbnail: "assets/ts3.png"
+      thumbnail: "/assets/ts3.png"
     },
     {
       title: "AUDIO MIXED DOWN",
       description: "CITE-DSC Tiktok",
       videoUrl: "https://youtu.be/3dXsTahurjo",
-      thumbnail: "assets/dance.png"
+      thumbnail: "/assets/dance.png"
     },
     {
       title: "VIDEO CAMPAIGN",
       description: "CITE-DSC Facebook",
       videoUrl: "https://youtu.be/-4D24Qy4gN4",
-      thumbnail: "assets/cite.png"
+      thumbnail: "/assets/cite.png"
     },
     // Add more video projects here
   ];

@@ -12,7 +12,7 @@ function Volunteer() {
         "DEVCON PRO Summit 2023",
         "Campus DEVCON Summit 2024 - UB Lipa Campus "
       ],
-      image: "assets/devconlogo.png"
+      image: "/assets/devconlogo.png"
     },
     {
       organization: "Blockchain Campus Conference",
@@ -23,7 +23,7 @@ function Volunteer() {
         "Blockchain Campus Conference 2023 - Mapúa University Makati",
         "Blockchain Campus Conference 2024 - iAcademy",
       ],
-      image: "assets/blockchainlogo.png"
+      image: "/assets/blockchainlogo.png"
     },
     {
       organization: "The Spectrum",
@@ -35,7 +35,7 @@ function Volunteer() {
         "Sa Mata ng Isang Bayani Documentary 2020",
         "AugusThings Interview 2022",
       ],
-      image: "assets/tslogo.png"
+      image: "/assets/tslogo.png"
     },
     // Add more volunteer experiences
   ];

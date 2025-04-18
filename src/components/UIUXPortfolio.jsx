@@ -11,7 +11,7 @@ function UIUXPortfolio() {
       title: "HackHaive",
       description: "AI-powered virtual event platform designed for hackathon enthusiasts and innovators. ",
       images: [
-        "assets/hacakhaive2.png",
+        "/assets/hacakhaive2.png",
 
       ],
       previewUrl: "https://www.figma.com/proto/sRR2UawMCyZ8VimQXAPqdh/HACKHIVE-(OFFICIAL)?page-id=0%3A1&node-id=12-15&p=f&viewport=8944%2C-521%2C0.43&t=RTXKyLOAR7CKlnYZ-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=40%3A2455" // Replace with actual preview link
@@ -20,7 +20,7 @@ function UIUXPortfolio() {
       title: "TaHack",
       description: "A streamlined web platform helping users efficiently manage and progress through courses.",
       images: [
-        "assets/tahacklandingpage.png",
+        "/assets/tahacklandingpage.png",
         
       ],
       previewUrl: "https://www.figma.com/proto/bTzpBdDAp4yiJYeiSiD4iF/TaHack-Web-Application?page-id=0%3A1&node-id=121-722&p=f&viewport=807%2C1621%2C0.18&t=TlKQMjTdUCwylyvO-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=121%3A722" // Replace with actual preview link
@@ -29,7 +29,7 @@ function UIUXPortfolio() {
       title: "EcoQuest",
       description: "A gamified mobile app motivating users to responsibly dispose of trash via challenges. ",
       images: [
-        "assets/ecogrow2.png",
+        "/assets/ecogrow2.png",
 
       ],
       previewUrl: "https://www.figma.com/proto/G4s7gWKNgr3KKv7WIJsnbx/EcoGrow?page-id=0%3A1&node-id=6-9&p=f&viewport=-2535%2C-213%2C1.39&t=7mUxUMDloneBvfuu-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=6%3A9" // Replace with actual preview link
@@ -38,7 +38,7 @@ function UIUXPortfolio() {
       title: "VIBE",
       description: "An all-in-one app streamlining event planning, ticketing, and managing participants.",
       images: [
-        "assets/vibe.png",
+        "/assets/vibe.png",
         
       ],
       previewUrl: "https://www.figma.com/proto/8eDhadRWYZ6MGlZ4oQlSuU/VIIIBEEEE?page-id=913%3A2&node-id=913-3&viewport=525%2C270%2C0.06&t=6ykszckcjsAGvKD3-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=913%3A3&show-proto-sidebar=1" // Replace with actual preview link
@@ -47,7 +47,7 @@ function UIUXPortfolio() {
       title: "Hiraya",
       description: "An intuitive platform for easily browsing, booking, and managing hotel accommodations.",
       images: [
-        "assets/hiraya.png",
+        "/assets/hiraya.png",
         
       ],
       previewUrl: "https://www.figma.com/proto/rjueSYFhNvcPV2KFUzbczu/Hiraya-Prototype?page-id=0%3A1&node-id=27-158&viewport=-242%2C340%2C0.1&t=BhPzCVZamxQBXcUh-1&scaling=contain&content-scaling=fixed&starting-point-node-id=27%3A158&show-proto-sidebar=1" // Replace with actual preview link
@@ -56,7 +56,7 @@ function UIUXPortfolio() {
       title: "Digi8 Studios",
       description: "A profile website for Media Company Digi8 Studios that gives looks and baranding to it.",
       images: [
-        "assets/digi8.png",
+        "/assets/digi8.png",
         
       ],
       previewUrl: "https://www.digi8studios.com/" // Replace with actual preview link

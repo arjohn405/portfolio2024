@@ -7,21 +7,21 @@ function Speaking() {
       date: "November 13, 2023",
       venue: "Open Society TIP Manila",
       description: "I discuss the importance and best practices in UI/UX Design.",
-      image: "assets/ostalk.png"
+      image: "/assets/ostalk.png"
     },
     {
       title: "Hack The Track 2024",
       date: "November 28, 2024",
       venue: "PLM Computer Science Society ",
       description: "I deliver my expertise and inspiring message to our future volunteers.",
-      image: "assets/plmtalk.png"
+      image: "/assets/plmtalk.png"
     },
     {
       title: "Olongapo Tech Meetup",
       date: "November 30, 2024",
       venue: "Olongapo City",
       description: "Dsicussing about tech-community and what is DEVCON?.",
-      image: "assets/olongapotalk.png"
+      image: "/assets/olongapotalk.png"
     },
     
     

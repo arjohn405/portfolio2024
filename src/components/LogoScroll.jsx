@@ -4,32 +4,32 @@ function LogoScroll() {
   const logos = [
     {
       name: "MSC TIP",
-      url: "assets/msclogo.png",
+      url: "/assets/msclogo.png",
       link: "#"
     },
     {
       name: "Devcon Ph",
-      url: "assets/devconlogo.png",
+      url: "/assets/devconlogo.png",
       link: "#"
     },
     {
       name: "Open Society",
-      url: "assets/oslogo.png",
+      url: "/assets/oslogo.png",
       link: "#"
     },
     {
       name: "The Spectrum",
-      url: "assets/tslogo.png",
+      url: "/assets/tslogo.png",
       link: "#"
     },
     {
       name: "Craftora",
-      url: "assets/craftora.png",
+      url: "/assets/craftora.png",
       link: "#"
     },
     {
       name: "Alas Kwatro Films",
-      url: "assets/alaslogo.png",
+      url: "/assets/alaslogo.png",
       link: "#"
     }
   ];
