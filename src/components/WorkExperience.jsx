@@ -18,15 +18,15 @@ function WorkExperience() {
     {
       company: "EduFied",
       position: "UI/UX Designer Trainee",
-      period: "Jan 27, 2025 - Present ",
-      description: "Worked as a UI/UX Designer.",
+      period: "Jan 27, 2025 - April 9, 2025 ",
+      description: "Worked as a UI/UX Designer Intern.",
       achievements: [
         "Create templates for the website",
         "Timely Delivery weekly design projects",
         "Communicate with the Project Manager and to the Developers"
       ],
       logo: "assets/fillpass.jpeg",
-      color: "#f3505e"
+      color: "#eba832"
     },
     {
       company: "ABS-CBN Corporation",
@@ -38,8 +38,8 @@ function WorkExperience() {
         "Ownership Validation and Compliance",
         "Report Generation and Presentation"
       ],
-      logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFmqs9glBwQcw/company-logo_200_200/company-logo_200_200/0/1630548466099/abs_cbn_logo?e=1743638400&v=beta&t=ljza5nPrikdaWx9qQIMgyKf9ENjuQeHRddczfpw_FRY",
-      color: "#ff6b6b"
+      logo: "assets/ABS-CBN_(2013).svg.png",
+      color: "#d89b29"
     },
     {
       company: "SQME Professionals, Inc.",
@@ -51,8 +51,8 @@ function WorkExperience() {
         "Conducted Front End Development",
         "Implement users experience testing"
       ],
-      logo: "https://media.licdn.com/dms/image/v2/C510BAQFFuFtuPo7_QA/company-logo_200_200/company-logo_200_200/0/1630635152786/sqme_professionals_inc_logo?e=1743638400&v=beta&t=0uWhJDL5FArJ21NQ07CXc0EStLRWq9KxI6OIFwGOWWk",
-      color: "#1b75bb"
+      logo: "assets/tslogo.png",
+      color: "#e9a72b"
     },
     {
       company: "MaxOut Digital Marketing Agency",
@@ -64,8 +64,8 @@ function WorkExperience() {
         "Timely Delivery of Projects and Clients",
         "Closing Deals and Sales"
       ],
-      logo: "https://media.licdn.com/dms/image/v2/C560BAQEjXokYVHbMdA/company-logo_100_100/company-logo_100_100/0/1661959124145?e=1743638400&v=beta&t=i9l9abSygwJDTkFWSw000GgoUzPb2ryJgeS11DVRWLY",
-      color: "#4ecdc4"
+      logo: "assets/alaslogo.png",
+      color: "#f0b846"
     },
     {
       company: "Moxie Denver Entertainment",
@@ -77,8 +77,8 @@ function WorkExperience() {
         "Timely Delivery weekly video projects",
         "Clear Communication with the client"
       ],
-      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7TpZyahTO57RyK1d3MVyoRgxo3fSPBm_V0Q&s",
-      color: "#feb626"
+      logo: "assets/moxie1.png",
+      color: "#eba832"
     },
   ];
 

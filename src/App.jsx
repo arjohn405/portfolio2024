@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Header from './components/Header'
 import About from './components/About'
 import LogoScroll from './components/LogoScroll'
@@ -13,8 +13,26 @@ import Banner from './components/Banner'
 import UIUXPortfolio from './components/UIUXPortfolio'
 
 function App() {
+  // Check if user previously set a theme preference
+  const savedTheme = localStorage.getItem('theme');
+  const [isDarkTheme, setIsDarkTheme] = useState(
+    savedTheme ? savedTheme === 'dark' : true
+  );
+
+  // Update theme and save preference
+  const toggleTheme = () => {
+    const newTheme = !isDarkTheme;
+    setIsDarkTheme(newTheme);
+    localStorage.setItem('theme', newTheme ? 'dark' : 'light');
+  };
+
+  // Apply theme class to body when theme changes
+  useEffect(() => {
+    document.body.classList.toggle('light-theme', !isDarkTheme);
+  }, [isDarkTheme]);
+
   return (
-    <div className="app">
+    <div className={`app ${!isDarkTheme ? 'light-theme' : ''}`}>
       <div className="background-lines">
         <div className="line"></div>
         <div className="line"></div>
@@ -23,7 +41,7 @@ function App() {
         <div className="line"></div>
         <div className="line"></div>
       </div>
-      <Header />
+      <Header toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />
       <main>
         <div className="hero-section">
           <div className="hero-content">
@@ -46,13 +64,13 @@ function App() {
         <LogoScroll />
         <WorkExperience />
         <Projects />
-        <Banner imageUrl="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=869&q=80" />
+        <Banner imageUrl="assets/banner.jpg" />
         <Speaking />
         <Hackathon />
-        <Banner imageUrl="https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
+        <Banner imageUrl="assets/banner2.jpg" />
         <Volunteer />
         <VideoPortfolio />
-        <Banner imageUrl="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
+        <Banner imageUrl="assets/banner.jpg" />
         <UIUXPortfolio />
         <Contact />
       </main>

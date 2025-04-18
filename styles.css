@@ -1,14 +1,32 @@
 /* Reset and Base Styles */
 :root {
+  /* Dark Theme (Default) */
   --primary-color: #eba832;
-  --secondary-color: #535353;
-  --background-color: #2c2c2c;
-  --surface-color: #3a3a3a;
-  --text-color: #ffffff;
+  --secondary-color: #333333;
+  --background-color: #121212;
+  --surface-color: #1e1e1e;
+  --text-color: #f5f5f5;
   --text-muted: #a0a0a0;
   --accent-color: #eba832;
-  --card-bg: #353535;
-  --border-color: #535353;
+  --card-bg: #1e1e1e;
+  --border-color: #333333;
+  --glass-bg: rgba(30, 30, 30, 0.7);
+  --glass-border: rgba(51, 51, 51, 0.5);
+}
+
+/* Light Theme */
+.light-theme {
+  --primary-color: #eba832;
+  --secondary-color: #e0e0e0;
+  --background-color: #f5f5f5;
+  --surface-color: #ffffff;
+  --text-color: #333333;
+  --text-muted: #666666;
+  --accent-color: #eba832;
+  --card-bg: #ffffff;
+  --border-color: #e0e0e0;
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(224, 224, 224, 0.5);
 }
 
 * {
@@ -21,14 +39,40 @@ body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   color: var(--text-color);
-  background: linear-gradient(135deg, #0a0f1c 0%, #1e293b 100%);
+  background: linear-gradient(135deg, var(--background-color) 0%, var(--surface-color) 100%);
   min-height: 100vh;
   font-size: 16px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  background: transparent;
+  border: none;
+  color: var(--text-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+  background: rgba(235, 168, 50, 0.2);
+  transform: rotate(30deg);
+}
+
+.theme-toggle svg {
+  width: 24px;
+  height: 24px;
 }
 
 /* Header Styles */
 header {
-  background-color: rgba(44, 44, 44, 0.5);
+  background-color: rgba(18, 18, 18, 0.8);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border-color);
@@ -37,6 +81,11 @@ header {
   width: 100%;
   top: 0;
   z-index: 1000;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.light-theme header {
+  background-color: rgba(245, 245, 245, 0.8);
 }
 
 nav {
@@ -46,6 +95,16 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  background: linear-gradient(135deg, var(--text-color) 0%, var(--primary-color) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 nav ul {
@@ -95,13 +154,13 @@ nav a:hover {
   transform: translate(-50%, -50%);
   text-align: center;
   z-index: 2;
-  background: rgba(53, 53, 53, 0.5);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  background: rgba(30, 30, 30, 0.8);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
   padding: 2rem;
   border-radius: 16px;
   width: 90%;
   max-width: 800px;
-  border: 1px solid rgba(83, 83, 83, 0.3);
+  border: 1px solid rgba(51, 51, 51, 0.5);
 }
 
 .hero-content h1 {
@@ -109,7 +168,7 @@ nav a:hover {
   font-weight: 950;
   margin-bottom: 1.5rem;
   line-height: 1.2;
-  background: linear-gradient(135deg, var(--text-color) 0%, var(--accent-color) 100%);
+  background: linear-gradient(135deg, var(--text-color) 0%, var(--primary-color) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -165,11 +224,17 @@ section h2 {
 .project-card {
   flex: 0 0 400px;
   scroll-snap-align: start;
-  background: rgba(53, 53, 53, 0.5);
-  border: 1px solid rgba(83, 83, 83, 0.3);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background: rgba(30, 30, 30, 0.8);
+  border: 1px solid rgba(51, 51, 51, 0.5);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
   overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 40px rgba(235, 168, 50, 0.15);
 }
 
 .project-image {
@@ -201,7 +266,7 @@ section h2 {
 }
 
 .tech-tag {
-  background: rgba(58, 58, 58, 0.5);
+  background: rgba(30, 30, 30, 0.9);
   border: 1px solid var(--border-color);
   color: var(--primary-color);
   padding: 0.25rem 0.75rem;
@@ -329,16 +394,16 @@ footer {
 }
 
 .experience-card {
-  flex: 0 0 600px; /* Fixed width for cards */
+  flex: 0 0 calc(50% - 1rem); /* Make cards take up half the container minus gap */
   scroll-snap-align: start;
-  --accent-color: var(--primary-color);
-  background: rgba(53, 53, 53, 0.5);
-  border: 1px solid rgba(83, 83, 83, 0.3);
-  border-radius: 16px;
-  padding: 2rem;
+  background: rgba(30, 30, 30, 0.8);
+  border: 1px solid rgba(51, 51, 51, 0.5);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
   position: relative;
-  transition: all 0.3s ease;
-  overflow: hidden;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Scroll Buttons */
@@ -387,8 +452,8 @@ footer {
 }
 
 .experience-card:hover {
-  transform: translateY(-5px); /* Changed from translateX to translateY */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  box-shadow: 0 12px 40px rgba(235, 168, 50, 0.15);
 }
 
 /* Update responsive styles */
@@ -689,14 +754,14 @@ footer {
 
 .primary-btn {
   background: var(--primary-color);
-  color: var(--background-color);
+  color: white;
   border: none;
 }
 
 .primary-btn:hover {
-  background: var(--secondary-color);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.3);
+  background: #d89b29;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(235, 168, 50, 0.3);
 }
 
 .secondary-btn {
@@ -706,8 +771,9 @@ footer {
 }
 
 .secondary-btn:hover {
-  background: var(--primary-color);
-  color: var(--background-color);
+  background: rgba(235, 168, 50, 0.1);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(235, 168, 50, 0.2);
 }
 
 /* Project Link Styles */
@@ -753,8 +819,12 @@ footer {
   width: 1px;
   height: 100%;
   top: 0;
-  left: 50%;
-  background: rgba(235, 168, 50, 0.1); /* Using primary color with low opacity */
+  background: linear-gradient(
+    to bottom,
+    rgba(235, 168, 50, 0) 0%,
+    rgba(235, 168, 50, 0.2) 50%,
+    rgba(235, 168, 50, 0) 100%
+  );
   overflow: hidden;
 }
 
@@ -766,14 +836,15 @@ footer {
   width: 100%;
   top: -50%;
   left: 0;
-  background: linear-gradient(to bottom, 
+  background: linear-gradient(
+    to bottom,
     rgba(235, 168, 50, 0) 0%,
-    rgba(235, 168, 50, 0.5) 75%,
-    rgba(235, 168, 50, 0.8) 100%
+    rgba(235, 168, 50, 0.6) 50%,
+    rgba(235, 168, 50, 0.2) 100%
   );
-  animation: drop 7s 0s infinite;
-  animation-fill-mode: forwards;
+  animation: drop 10s 0s infinite;
   animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+  animation-fill-mode: forwards;
 }
 
 /* Create multiple lines with different positions and animations */
@@ -812,14 +883,13 @@ body {
 }
 
 .contact-container {
-  max-width: 800px;
-  margin: 0 auto;
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: 1fr;
-  background: rgba(53, 53, 53, 0.5);
+  background: rgba(30, 30, 30, 0.8);
+  border: 1px solid rgba(51, 51, 51, 0.5);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
   padding: 2rem;
-  border-radius: 12px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .contact-info {
@@ -1301,4 +1371,58 @@ body {
   font-size: 2rem;
   color: white;
   cursor: pointer;
+}
+
+/* Background Lines Light Theme Adjustments */
+.light-theme .line {
+  background: linear-gradient(
+    to bottom,
+    rgba(235, 168, 50, 0) 0%,
+    rgba(235, 168, 50, 0.1) 50%,
+    rgba(235, 168, 50, 0) 100%
+  );
+}
+
+.light-theme .line::after {
+  background: linear-gradient(
+    to bottom,
+    rgba(235, 168, 50, 0) 0%,
+    rgba(235, 168, 50, 0.4) 50%,
+    rgba(235, 168, 50, 0.1) 100%
+  );
+}
+
+/* Card adjustments for light theme */
+.light-theme .project-card,
+.light-theme .experience-card,
+.light-theme .contact-container,
+.light-theme .hero-content,
+.light-theme .speaking-card,
+.light-theme .hackathon-card,
+.light-theme .volunteer-card,
+.light-theme .video-card,
+.light-theme .uiux-item {
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+}
+
+.light-theme .tech-tag {
+  background: rgba(245, 245, 245, 0.9);
+}
+
+.light-theme .contact-input {
+  background: rgba(240, 240, 240, 0.5);
+}
+
+/* Section title adjustments for light theme */
+.light-theme section h2 {
+  background: linear-gradient(135deg, #333333 0%, var(--primary-color) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Banner adjustments for light theme */
+.light-theme .banner {
+  filter: brightness(1.1);
 } 
