@@ -7,7 +7,7 @@ function About() {
       <div className="about-container">
         <div className="about-image">
           <img 
-            src="assets/dp.png" 
+            src="/assets/dp.png" 
             alt="Professional headshot" 
           />
         </div>

@@ -25,7 +25,7 @@ function WorkExperience() {
         "Timely Delivery weekly design projects",
         "Communicate with the Project Manager and to the Developers"
       ],
-      logo: "assets/fillpass.jpeg",
+      logo: "/assets/fillpass.jpeg",
       color: "#eba832"
     },
     {
@@ -38,7 +38,7 @@ function WorkExperience() {
         "Ownership Validation and Compliance",
         "Report Generation and Presentation"
       ],
-      logo: "assets/ABS-CBN_(2013).svg.png",
+      logo: "/assets/ABS-CBN_(2013).svg.png",
       color: "#d89b29"
     },
     {
@@ -51,7 +51,7 @@ function WorkExperience() {
         "Conducted Front End Development",
         "Implement users experience testing"
       ],
-      logo: "assets/tslogo.png",
+      logo: "/assets/tslogo.png",
       color: "#e9a72b"
     },
     {
@@ -64,7 +64,7 @@ function WorkExperience() {
         "Timely Delivery of Projects and Clients",
         "Closing Deals and Sales"
       ],
-      logo: "assets/alaslogo.png",
+      logo: "/assets/alaslogo.png",
       color: "#f0b846"
     },
     {
@@ -77,7 +77,7 @@ function WorkExperience() {
         "Timely Delivery weekly video projects",
         "Clear Communication with the client"
       ],
-      logo: "assets/moxie1.png",
+      logo: "/assets/moxie1.png",
       color: "#eba832"
     },
   ];

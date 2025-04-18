@@ -55,7 +55,7 @@ function App() {
           </div>
           <div className="hero-image-container">
             <img 
-              src="assets/banner.jpg" 
+              src="/assets/banner.jpg" 
               alt="Developer workspace with laptop and code" 
             />
           </div>
@@ -64,13 +64,13 @@ function App() {
         <LogoScroll />
         <WorkExperience />
         <Projects />
-        <Banner imageUrl="assets/banner.jpg" />
+        <Banner imageUrl="/assets/banner.jpg" />
         <Speaking />
         <Hackathon />
-        <Banner imageUrl="assets/banner2.jpg" />
+        <Banner imageUrl="/assets/banner2.jpg" />
         <Volunteer />
         <VideoPortfolio />
-        <Banner imageUrl="assets/banner.jpg" />
+        <Banner imageUrl="/assets/banner.jpg" />
         <UIUXPortfolio />
         <Contact />
       </main>
